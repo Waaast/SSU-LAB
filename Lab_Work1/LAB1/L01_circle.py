@@ -30,7 +30,7 @@ def main():
     # Или False, если точка лежит вовне круга.
     # TODO здесь ваш код
     i2=(point_2[0]**2+point_2[1]**2)**0.5<radius
-    return f"{round(Sqr,4)} {i1} {i2}" 
+    return f"{round(Sqr,4)}\n{i1}\n{i2}" 
 if __name__ == "__main__":
     print(main()) 
 # Пример вывода на консоль:
